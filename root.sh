@@ -83,7 +83,7 @@ main() {
             password=$custom_password # 保存输入的密码
             ;;
         *)
-            echo "无效选项。退出..."
+            echo "无效选项 退出..."
             exit 1
             ;;
     esac
