@@ -91,7 +91,7 @@ main() {
     modify_sshd_config
     restart_sshd_service
 
-    echo "密码更改成功：$password" # 输出密码
+    echo "密码已成功更改：$password" # 输出密码
 
     # 删除下载的脚本
     rm -f "$0"
