@@ -77,7 +77,7 @@ main() {
             password=$(generate_random_password) # 保存生成的密码
             ;;
         2)
-            read -p "请输入密码： " custom_password
+            read -p "请输入更改密码： " custom_password
             echo "root:$custom_password" | sudo chpasswd
             check_error "修改密码时出错"
             password=$custom_password # 保存输入的密码
